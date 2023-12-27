@@ -260,8 +260,12 @@ a:focus {
 
 .hero .hero-image {
     position: relative;
+    justify-items: center;
     text-align: right;
+    height: 90vh;
     padding-right: 75px;
+    padding-top:40px;
+  
 }
 
 .hero .hero-image img {
@@ -1588,4 +1592,8 @@ a:focus {
         line-height: 16px;
         padding: 0 5px;
     }
+}
+.portfolio-img img{
+    border: 2px solid red;
+    height: 300px !important;
 }
