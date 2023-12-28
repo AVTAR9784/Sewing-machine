@@ -1311,8 +1311,13 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     background: #EF233C;
-}
-
+}@media screen and (min-width: 480px) {
+    html{width: 100%;
+  overflow-x: hidden;
+    }
+  }html{width: 100%;
+  overflow-x: hidden;
+    }
 /* .contact .container-fluid {
     background: url(../img/shop.png)  center no-repeat;
     background-size: contain;
